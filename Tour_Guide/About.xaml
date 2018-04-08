@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.About">
+	<ContentPage.Content>
+        <StackLayout>
+        <Label x:Name="About_Title" 
+               Text="About Us" 
+               HorizontalTextAlignment="Center" 
+               FontSize="Large" 
+               Margin="0,20,0,0">
+            
+        </Label>
+  
+        <Label x:Name="About_Content" 
+               Text="Sunderland has a rich and varied literary and cultural heritage.  By focusing on the city centre, the river and the coastline, this web site explores Sunderland in a new light as a place with a rich history and dynamic future. This was part of the City of Culture 2021 bid events" 
+               HorizontalTextAlignment="Center" 
+               FontSize="Medium" 
+               Margin="0,40,0,0">
+            
+        </Label>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Sun">
+    <ContentPage.Content>
+       <ScrollView>
+         <StackLayout>
+                  <Label Text="Second Sun"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Sun.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="Directly under the bridge is a more recent sculpture, ‘Second Sun’, by Liverpool-based artist Andrew Small. This massive sculpture is one of a pair he was commissioned to make as part of the final stage of the C2C cycle route in 2009 (the other, ‘C’, is on Roker beach). He was inspired by the work of Venerable Bede, who calculated the motion of the sun and moon. The central aluminium sphere features animated images of the sun taken by NASA."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+                <Label Text="The Second Sun sculpture covers the greatest area on the riverside as it extends along to the coast in the form of smaller installations along the path. These installations carry the names of all the planets in our solar system and are placed proportionately distant from the Second Sun, with the added animated element of offering C2C and W2W cyclists and walkers the distance they are from their finish line.  The Uranus marker pictured is close to the Red House sculpture further along the riverside.."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+       <Image Source="Uranus.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

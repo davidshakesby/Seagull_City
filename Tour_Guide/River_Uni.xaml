@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Uni">
+    <ContentPage.Content>
+         <ScrollView>
+         <StackLayout>
+                  <Label Text="St Peters campus, University of Sunderland"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+         <Label Text="The University of Sunderland’s St Peter’s Campus occupies the site of the former Thompson’s Yard at the point on the north bank where the river curves dramatically before opening out into the North Sea.  The steep bank that leads down from St Peter’s Church to the river is incorporated into the design of the campus.  Building Design Partnership (BDP) designed this campus in three stages from 1992 right the way through to the final stage, the Media Centre, in 2002.  Featuring sweeping roof lines and elegant curves, the strong Scandinavian influence of the design incorporates timber cladding, steel and pale brick, showing the influence of Alvar Alto."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+         <Image Source="Uni_Painting.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+         <Label Text="The sweeping roof-lines dipping towards the quayside are captured in this painting by Robert Soden.  Soden was commissioned by the University of Sunderland to record the construction of the first stage of building on the St Peter’s campus in 1992-3. This painting shows the almost-complete building work at that time. Image courtesy of University of Sunderland."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+         <Label Text="The contemporary design of the buildings fit into the site they occupy, with none taller than the St Peter’s Church tower.  Large windows form atriums in the four main buildings, each window offering a different panoramic view of the river. The campus won RIBA awards in 1994 and 1997, and the Civic Trust award in 1998. Architectural photographer Martine Hamilton Knight listed this campus as one of her two favourite BDP designs when the architects celebrated their 50th anniversary in 2011."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+                
+                
+       <Image Source="Knowledge.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="‘Pathways of Knowledge’ is outside the library at the University of Sunderland’s St Peter’s campus. The sculpture reflects the intellectual heritage of the area. During the Anglo-Saxon period, the twin monasteries of St Peter’s (on the site of St Peter’s church behind the campus) and St Paul’s (Jarrow) were the greatest centres of learning in Western Europe (the Oxford and Cambridge of their day). St Bede is depicted on the open book on the end, and there is a mosaic decorated in imitation of an illuminated manuscript from St Peter’s Church."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+             
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

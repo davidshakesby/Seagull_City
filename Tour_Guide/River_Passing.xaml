@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Passing">
+    <ContentPage.Content>
+          <ScrollView>
+         <StackLayout>
+                  <Label Text="Sunderland Marina - Passing through"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+          <Label Text="This marina is now home to many pleasure boats, but also the RNLI facility for Sunderland.  The origins of the marina are in the old North Dock.  Work on that began in 1828, designed by Isambard Kingdom Brunell and funded by Sir Hedworth Williamson (7th Baronet). It covered just nine acres and by the time it opened in 1837 it was already too small to meet the needs of the rapidly expanding coal trade. The North Dock was also difficult for ships to navigate, soon gaining it the nickname ‘Sir Hedworth’s bathtub’. (See also Roker and Whitburn for more information about the Williamson family.)"
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+           
+
+        <Image Source="Passing_1.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="The area around the marina houses more sculptures. ‘Passing Through’ is a series of three doors, representing the past, present and future. It is only possible to go through the present door. Colin Wilbourn, Karl Fisher and Craig Knowles designed and built this sculpture around the theme of domesticity. In order to view the distorted image carved into the wall behind it, you need to align yourself with the small stool and keyehole."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+       
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

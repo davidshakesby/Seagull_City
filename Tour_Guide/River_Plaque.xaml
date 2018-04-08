@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Plaque">
+    <ContentPage.Content>
+         <ScrollView>
+         <StackLayout>
+                  <Label Text="Misspelt Plaque"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Plaque.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="A plaque in the footpath close to this point gives a plan of the scale and extent of the coal mine at its peak. Interestingly, there is a spelling mistake on this: Ryhope is misspelled ‘Rhyhope’ (visible in the bottom left corner)."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

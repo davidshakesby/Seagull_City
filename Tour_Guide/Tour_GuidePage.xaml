@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:Tour_Guide" 
+    x:Class="Tour_Guide.Tour_GuidePage">
+
+    <MasterDetailPage.Master>
+                <ContentPage Padding="10" BackgroundColor="#fff" Title="Master" Icon="HamburgerIcon.png" >
+            <ContentPage.Content>
+                <StackLayout Margin="5, 30, 5, 5">
+                    <Label Text="Menu" TextColor="Black" Margin="0,0,0,20" FontSize="Large" HorizontalTextAlignment="Center" />
+                    <Button Text="Home"   TextColor="Black" FontSize="Medium" Clicked="Home_Button" Margin="0, 5, 0, 5" />
+                    <Button Text="Select Your Route"   TextColor="Black" FontSize="Medium" Clicked="Trail_Button" Margin="0, 5, 0, 5" />
+                    <Button Text="About Us"  TextColor="Black" FontSize="Medium" Clicked="About_Button" Margin="0, 5, 0, 5" />
+                    <Button Text="Register"  TextColor="Black" FontSize="Medium" Clicked="Register_Button"  Margin="0, 5, 0, 5"/>
+                    <Button Text="Feedback"  TextColor="Black" FontSize="Medium"  Clicked="Feedback_Button" Margin="0, 5, 0, 5"/>
+                            
+                    </StackLayout>
+
+            </ContentPage.Content>
+
+        </ContentPage>
+
+    </MasterDetailPage.Master>
+
+
+
+ <MasterDetailPage.Detail>
+ <ContentPage Padding="10" BackgroundColor="#ecebeb"  >
+            <ContentPage.Content>
+                <StackLayout Margin="5, 30, 5, 5">
+                    <Label TextColor="Black" Text="Welcome" HorizontalTextAlignment="Center"/>
+
+                
+
+                </StackLayout>
+
+            </ContentPage.Content>
+
+        </ContentPage>
+</MasterDetailPage.Detail>
+    
+</MasterDetailPage>

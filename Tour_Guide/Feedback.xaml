@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tour_Guide.Feedback"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             >
+	<ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Feedback"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+         </Label>
+
+              <Label Text="To help us develop this app further, please take a few moments to fill in this brief questionnaire."
+         HorizontalTextAlignment="Center" 
+           Margin="10,20,10,0">
+         </Label>
+
+            <Label Text="Are you a Sunderland resident?"/>
+            <controls:checkbox DefaultText="Chunk Down Projects"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="10"
+                               Fontname="Yes"/>
+
+            
+            
+            
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

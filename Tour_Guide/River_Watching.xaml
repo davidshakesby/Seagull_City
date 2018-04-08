@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Watching">
+    <ContentPage.Content>
+            <ScrollView>
+         <StackLayout>
+                  <Label Text="Watching and Waiting"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Watching.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="‘Watching and Waiting’ is a sculpture that includes a telescope, a hamper with a book open on it, and a seat. Designed and made by Colin Wilbourn, Karl Firsher, Craig Knowles and Chaz Brenchly, the site of this sculpture is inspired by old maps which refer to this as ‘Look Out Hill’. The steel book in this sculpture features a piece of writing by Brenchly about the sea, and incorporates a version of this in braille."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+         <Button Text="You can read the text that is engraved in the sculpture here."  TextColor="Black" FontSize="Medium" Margin="0, 5, 0, 5"/>
+
+            </StackLayout>
+            </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>

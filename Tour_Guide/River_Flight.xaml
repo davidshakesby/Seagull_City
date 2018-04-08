@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Flight">
+    <ContentPage.Content> 
+        <ScrollView>
+         <StackLayout>
+                  <Label Text="Taking Flight"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Flight.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="On the promontory of the marina, ‘Taking Flight’ is a sequence of sculptures which shows the different stages as a cormorant takes off across the Wear. Craig Knowles’ statue features four steel girders graded in order of increasing height as they near the water, atop of which is a cormorant gradually emerging and taking flight. Knowles regarded this as a metaphor to show the emergence of St Peter’s from an area of industrialisation to one that was closer to nature."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+        
+            </StackLayout>
+            </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>

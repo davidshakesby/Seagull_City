@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.App">
+	<Application.Resources>
+		<!--<ResourceDictionary>
+            <Style xName="LabelStyle" TargetType="Label">
+            <Setter Property="Label.FontFamily">
+                    <Setter.Value>
+                          <OnPlatform x:TypeArguments="x:String">
+                <On Platform="iOS" Value="RobotoMono-Regular" />
+                <On Platform="Android" Value="Lobster-Regular.ttf#Lobster-Regular" />
+
+                </OnPlatform>>
+
+
+                        <OnPlatform x:TypeArguments="x:String">
+                    <OnPlatform.Android>RobotoMono-Regular.ttf#RobotoMono-Regular</OnPlatform.Android>
+                     <OnPlatform.iOS>RobotoMono-Regular</OnPlatform.iOS>       
+                        </OnPlatform>
+
+                    </Setter.Value>
+                </Setter>
+
+            </Style>
+    </ResourceDictionary>-->
+
+   </Application.Resources>
+</Application>

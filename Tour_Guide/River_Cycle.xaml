@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Cycle">
+    <ContentPage.Content>
+       <ScrollView>
+         <StackLayout>
+                  <Label Text="Coast to Coast Sculpture"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Cycle.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="The Coast to Coast cycle route runs close by and, over the years, new sculptures have been added to those that formed part of the original project to take into account the increased popularity of this route. For example, just up from the ‘High Tide’ sculpture is an iron mile post informing cyclists of the distance to various local destinations."
+
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

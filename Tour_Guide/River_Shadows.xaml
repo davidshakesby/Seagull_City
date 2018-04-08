@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Shadows">
+    <ContentPage.Content>
+         <ScrollView>
+         <StackLayout>
+                  <Label Text="Shadows in Another Light"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Shadow_1.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="The largest single sculpture further down the river is entitled ‘Shadows in Another Light’. It resembles a steel tree and stands on the base of a former shipyard crane. The giant rivets, nuts and bolts belong to it. Around the plinth are plaques, created in workshops by blind and partially sighted people, which relate the history of Sunderland, including the legend of the Lambton Worm. The sculpture’s shadow is visible even without sunlight; it is set into the paving stones beneath."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+             
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

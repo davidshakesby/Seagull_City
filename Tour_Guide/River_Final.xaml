@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Final">
+    <ContentPage.Content>
+           <ScrollView>
+         <StackLayout>
+                  <Label Text="The Final Sculputure"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+          <Image Source="Final_1.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+
+        <Label Text="Andrew Small’s final sculputure in the sequence is designed to allow cyclists (and others) to be photorgraphed framed by the central stone with the lighthouse in the background. This photo shows the sculpture in its unpeopled context at sunset."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+       
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

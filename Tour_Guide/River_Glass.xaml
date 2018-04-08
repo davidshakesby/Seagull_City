@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Glass">
+    <ContentPage.Content>
+     <ScrollView>
+         <StackLayout>
+                  <Label Text="The National Glass Centre"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+          <Label Text="The National Glass Centre is situated on the north bank of the River Wear on the former site of J.L Thompson and Sons shipyard."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+        <Image Source="Glass.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="Close to St Peter’s church, this site is significant for its links with the history of glass making in Britain. Benedict Biscop introduced glass making in the seventh century when he employed French glaziers to make the windows of his new priory in 674. Glass making in Sunderland grew considerably in the 18th century, when the site made it ideal in terms of the basic material of cheap coal and a port situation for importing of high quality sand from the Baltic. Sunderland’s glass making industry included Pyrex and Corning, and the decorative glass produced on the river became famous throughout the country. The decline in shipbuilding was mirrored by the decline in the glass industry, but the Glass Centre was developed in the late 1990s as part of the regeneration of the area.  This was opened in 1998 and is a striking design of glass and steel, with a glass-panelled roof that is 6cm thick and provides a walkway to look out across the river and port. The Glass Centre is the part of the University of Sunderland’s glass and ceramics department, and also has a museum, exhibition space, shop and restaurant. Directly outside the Glass Centre, in the river, is a relic of the shipyard that once occupied this site: the green-painted pole with triangle at the top marks the starboard side of the slipway that would have been used to launch ships into the river."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+        <Image Source="Pole.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+         <Label Text="Behind the National Glass Centre is the first sculpture from the St Peter’s Riverside project in 1992. ‘The Always Open Gates‘ by Colin Wilbourn and Karl Fisher incorporate two bikes into the frame of the ‘gates’. This is a worthwhile detour for anyone who is following the quayside path before this point."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+       <!---<Image Source="Uranus.JPG" WidthRequest="350" Margin="0,30,0,0"/>   GET IMAGE-->
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

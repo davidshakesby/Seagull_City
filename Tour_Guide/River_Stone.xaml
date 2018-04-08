@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Stone">
+    <ContentPage.Content>
+         <ScrollView>
+         <StackLayout>
+                  <Label Text="Stone Stair Carpet"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Steel.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="‘Stone Stair Carpet’ consists of carved steps going down into the river. Colin Wilbourn created this sculpture by carving into the original stone steps that were once part of the docks in this area. The carvings draw on images inspired by the pre-industrial heritage of the area.
+"
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+            
+        </StackLayout>
+            </ScrollView>
+           
+    </ContentPage.Content>
+</ContentPage>

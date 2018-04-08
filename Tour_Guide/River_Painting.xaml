@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Painting">
+    <ContentPage.Content>
+        <ScrollView>
+         <StackLayout>
+                  <Label Text="Shipyard Painting"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Sun.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="Looking across the river, the site of the old graving dock has been decorated with a mural depicting life on the river. Designed and painted by Frank Styles, this was completed in October 2015 and includes the name of the shipyard, S.P. Austin and Sons, that once occupied this site. Styles has contributed several other colourful murals across the city, particularly in the High Street East area."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+             
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.Trails">
+	<ContentPage.Content>
+    <ScrollView>
+        <StackLayout>
+                
+            
+          
+        <Button Text="Mowbary Park and Winter Gardens"   TextColor="Gray" FontSize="Medium" Margin="0, 5, 0, 5" />
+        <Button Text="Fawcett Street"  TextColor="Gray" FontSize="Medium"  Margin="0, 5, 0, 5" />
+        <Button Text="Burdon Road and AshBrooke"  TextColor="Gray" FontSize="Medium"   Margin="0, 5, 0, 5"/>
+        <Button Text="High Street East"  TextColor="Gray" FontSize="Medium"   Margin="0, 5, 0, 5"/>
+        <Button Text="Old Sunderland and the East End"   TextColor="Gray" FontSize="Medium" Margin="0, 5, 0, 5" />
+        <Button Text="High Street West to Keel Square"  TextColor="Gray" FontSize="Medium"  Margin="0, 5, 0, 5" />
+        <Button Text="Wearmouth's Bridges"  TextColor="Gray" FontSize="Medium"   Margin="0, 5, 0, 5"/>
+        <Button Text="Riverside Walk to the Coast"  TextColor="Black" FontSize="Medium"  Clicked="Coast_Button" Margin="0, 5, 0, 5"/>
+        <Button Text="Roker and Whitburn"   TextColor="Gray" FontSize="Medium"  Margin="0, 5, 0, 5" />
+        <Button Text="Hylton Castle"  TextColor="Gray" FontSize="Medium"  Margin="0, 5, 0, 5" />
+        <Button Text="Walks around Sunderland"  TextColor="Gray" FontSize="Medium"   Margin="0, 5, 0, 5"/>
+        <Button Text="Cycling tours around in and around Sunderland"  TextColor="Gray" FontSize="Medium" Margin="0, 5, 0, 5"/>
+            
+                                                                  
+  
+
+   
+           
+            </StackLayout>
+            </ScrollView>
+
+       
+	</ContentPage.Content>
+</ContentPage>

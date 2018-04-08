@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.Homepage">
+	<ContentPage.Content>
+          <StackLayout Padding="20">
+        
+        <Label Text="SEAGULL CITY "  Margin="0, 15, 0, 10" TextColor="#000" FontSize="25" FontAttributes="Bold"> 
+        <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                <On Platform="iOS" Value="RobotoMono-Regular" />
+                </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+            <Image Source="Logo.jpg" WidthRequest="300" />
+
+       
+            <Label Text="Sunderland's Literary and Culture Heritage" HorizontalTextAlignment="Center" Margin="0, 50, 0, 0" TextColor="#000" FontSize="20" FontAttributes="Bold">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                <On Platform="iOS" Value="RobotoMono-Regular" />
+                </OnPlatform>
+                </Label.FontFamily>
+            </Label>
+
+             <Button x:Name="route" Text="Select Your Route"  TextColor="#4007AFF" FontSize="Medium"  Clicked="Trail_Button" Margin="0, 100, 0, 5">
+             <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                <On Platform="iOS" Value="RobotoMono-Regular" />
+                </OnPlatform>
+                </Label.FontFamily>
+
+
+            </Button>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

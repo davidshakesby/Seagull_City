@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Windows">
+    <ContentPage.Content>
+         <ScrollView>
+         <StackLayout>
+                  <Label Text="Windows and Walls"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Windows.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="The ‘Windows and Walls’ sculpture involved local schools in the production of these scenes of sea and country life. The panels are grouped into six sets of four, each set illustrating a story that is inscribed on small metal plates attached to the wall between them. This was designed around stories about the sea and country life, written by local school children. There are groups of six sets of four, each illustrating a story that is inscribed on metal plates beside them."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+        
+            </StackLayout>
+            </ScrollView> 
+    </ContentPage.Content>
+</ContentPage>

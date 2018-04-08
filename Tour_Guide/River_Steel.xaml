@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Steel">
+    <ContentPage.Content>
+        <ScrollView>
+         <StackLayout>
+                  <Label Text="Men of Steel"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+        <Image Source="Steel.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+       <Label Text="The first sculpture is to the right of the bridge, upstream just beyond the railway bridge. ‘Men of Steel’  is by Graeme Hopper and shows steel men pushing boulders of coal uphill in homage to the generations of miners who worked at Wearmouth Colliery where the Stadium of Light now stands. This is accessible through the carpark at this point, but is largely invisible from the lower footpath as the trees are overgrown."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

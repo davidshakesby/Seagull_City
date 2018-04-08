@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tour_Guide.River_Red">
+    <ContentPage.Content>
+        <ScrollView>
+         <StackLayout>
+                  <Label Text="The Red House"
+         HorizontalTextAlignment="Center" 
+         FontSize="Large" 
+         Margin="0,20,0,0">
+          </Label>
+
+          <Label Text="‘The Red House’ is an ‘exploded’ house carved from stone, with fragments of it along the trail."
+         HorizontalTextAlignment="Center" 
+         FontSize="Medium" 
+         Margin="0,20,0,20">
+          </Label>
+
+        <Image Source="Red_1.JPG" WidthRequest="350" Margin="0,30,0,0"/>
+
+
+
+        <Button Text="Chaz Brenchley wrote an accompanying story, ‘Murder at the Red House’, which you can listen to here: Murder at the Red House"  TextColor="Black" FontSize="Medium" Margin="0, 5, 0, 5"/>
+            
+
+       
+            
+        </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

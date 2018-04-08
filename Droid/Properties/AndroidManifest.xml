@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Seagull_City.Tour_Guide">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="Tour_Guide">
+	</application>
+</manifest>
